@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <!-- ****copy**** -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- ****copy**** end*-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -20,6 +22,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <!-- ****copy**** -->
+    <!-- <script type="module" src="./index.js"></script> -->
+    <!-- ****copy**** end*-->
   </head>
   <body>
     <header class="link header">
@@ -41,12 +46,34 @@
       </div>
     </header>
     <main>
+      <!-- ****copy**** -->
+      <section class="customer-reviews"></section>
       <!-- Slider main container -->
       <div class="swiper">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">
+            <img photo-emily src="./images/customer-reviews/customer-foto1.png" alt="emily" />
+            <p class="review-emily">
+              I love visiting your cafe. You prepare the most delicious ice cream in Los Angeles! In
+              addition, you have beautiful serving, cozy atmosphere and polite staff.
+            </p>
+            <p class="review-name">Emily, Los Angeles</p>
+            <!-- <ul class="reviews">
+              <li class="photo-emily">
+                <img src="./images/customer-reviews/customer-foto1.png" alt="emily" />
+              </li>
+              <li class="review-emily">
+                <p>
+                  I love visiting your cafe. You prepare the most delicious ice cream in Los
+                  Angeles! In addition, you have beautiful serving, cozy atmosphere and polite
+                  staff.
+                </p>
+              </li>
+              <li class="review-name"><p>Emily, Los Angeles</p></li>
+            </ul> -->
+          </div>
           <div class="swiper-slide">Slide 2</div>
           <div class="swiper-slide">Slide 3</div>
           ...
@@ -55,11 +82,13 @@
         <div class="swiper-pagination"></div>
 
         <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
 
         <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
+        <!-- <div class="swiper-scrollbar"></div> -->
+
+        <!-- ****copy**** end*-->
       </div>
       <!-- <section class="primery-section">
         <h1 class="primery-title">Effective Solutions for Your Business</h1>
@@ -163,6 +192,9 @@
         </p>
       </div>
     </footer>
+    <!-- ****copy**** -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- ****copy**** end*-->
+    <script src="./js/slider.js"></script>
   </body>
 </html>

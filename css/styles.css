@@ -9,6 +9,11 @@
   --footer-logo-color: #f4f4fd;
   --text-background-color-footer: #e7e9fc;
   --background-focus-btn: #404bbf;
+  /* color */
+  --background: #84a178;
+  --text-review: #fcfcfc;
+  --review-name: #131313;
+  /* --swiper-navigation-size: 72px; */
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -17,8 +22,11 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
 }
-
-/* --------------     HEADER  &  FOOTER ----------------- */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
 
 .link-logo,
 .menu-link {
@@ -75,11 +83,7 @@ footer {
   width: 264px;
   margin-top: 16px;
 }
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0px 15px;
-}
+
 .container-footer {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -111,11 +115,6 @@ footer {
 }
 
 /* -------------  STUDIO  ------------------*/
-
-.swiper {
-  width: 600px;
-  height: 300px;
-}
 
 h1,
 h2,
@@ -152,3 +151,90 @@ ol {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+/* *********************  COPY  ****************** */
+/* *********************  COPY  ****************** */
+/* *********************  COPY  ****************** */
+/* *********************  COPY  ****************** */
+/* *********************  COPY  ****************** */
+.swiper {
+  width: 320px;
+  height: 454px;
+  align-items: center;
+}
+.swiper-wrapper {
+  align-items: center;
+  /* justify-content: center; */
+}
+/* .swiper {
+  justify-content: center;
+} */
+
+.swiper-pagination-bullet-active {
+  background-color: var(--background);
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  /* gap: 18px; */
+}
+/* .swiper-wrapper {
+  display: flex;
+  flex-direction: column;
+} */
+/* .reviews {
+  margin: auto;
+} */
+.photo-emily {
+  /* margin: auto;
+  align-items: center;
+  justify-content: center; */
+  /* width: 85px;
+  height: 85px; */
+}
+.review-emily {
+  margin: 32px 0;
+  width: 280px;
+  padding: 35px 39px;
+  background-color: var(--background);
+  border-radius: 10px;
+  color: var(--text-review);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 255%;
+  text-align: center;
+}
+.review-name {
+  margin-bottom: 12px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 186%;
+  /* or 37px */
+
+  text-align: center;
+  color: var(--review-name);
+}
+
+/* mobile */
+
+/* ****copy**** end** */
+
+/* border-color: #404bbf;
+  background-color: #404bbf;
+  background-image: url(../images/click.svg);
+  background-size: contain;
+  background-origin: border-box;
+} */
+/* .swiper-pagination-bullet {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  border: 1.25px solid var(--primary-color);
+  border-radius: 2px;
+} */

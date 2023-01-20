@@ -10,7 +10,7 @@
   --text-background-color-footer: #e7e9fc;
   --background-focus-btn: #404bbf;
   /* color */
-  --background: #84a178;
+  --dark-bg-color: #84a178;
   --text-review: #fcfcfc;
   --review-name: #131313;
   /* --swiper-navigation-size: 72px; */
@@ -28,21 +28,19 @@ body {
   background-size: 100%, cover;
   background-position: top 0 center;
   padding-top: 324px;
-  border-top: 98px solid #154b1a;
+  border-top: 98px solid var(--dark-bg-color);
 }
-/* .container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0px 15px;
-} */
-font-family: var(--main-font);
+
+.font-family: var(--main-font);
 
 /* MOBILE */
 @media screen and (min-width: 320px) {
   .container {
-    width: 320px;
+    min-width: 320px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -116,18 +114,15 @@ ol {
 /* *********************  COPY  ****************** */
 .swiper {
   width: 320px;
-  height: 454px;
-  align-items: center;
+  /* height: 454px; */
 }
 .swiper-slide-active {
   display: flex;
   flex-direction: column;
-}
-.swiper-wrapper {
-  align-items: center;
+  justify-content: flex-start;
 }
 .swiper-pagination-bullet-active {
-  background-color: var(--background);
+  background-color: var(--dark-bg-color);
 }
 .swiper-pagination-bullet {
   width: 12px;
@@ -139,11 +134,11 @@ ol {
   width: 85px;
   height: 85px;
 }
-.review-emily {
+.review-text {
   margin: 32px auto;
   width: 280px;
   padding: 35px 39px;
-  background-color: var(--background);
+  background-color: var(--dark-bg-color);
   border-radius: 10px;
   color: var(--text-review);
   font-family: 'Montserrat';
@@ -166,7 +161,21 @@ ol {
   color: var(--review-name);
 }
 
-/* mobile */
+/* MOBILE */
+@media screen and (min-width: 320px) {
+}
+
+/* ICE-CREAM */
+@media screen and (min-width: 480px) {
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1200px) {
+}
 
 /* ****copy**** end** */
 

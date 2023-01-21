@@ -163,6 +163,13 @@ ol {
 
 /* MOBILE */
 @media screen and (min-width: 320px) {
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .customer-reviews {
+      background-image: url(../images/background/background-mobile@2x.jpg);
+    }
+  }
 }
 
 /* ICE-CREAM */
@@ -171,10 +178,30 @@ ol {
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+  .customer-reviews {
+    background-image: url(../images/background/background-tablet.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .customer-reviews {
+      background-image: url(../images/background/background-tablet@2x.jpg);
+    }
+  }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1200px) {
+  .customer-reviews {
+    background-image: url(../images/background/background-desktop.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .customer-reviews {
+      background-image: url(../images/background/background-desktop@2x.jpg);
+    }
+  }
 }
 
 /* ****copy**** end** */
